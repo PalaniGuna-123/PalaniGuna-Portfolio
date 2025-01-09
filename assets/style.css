@@ -571,24 +571,27 @@ button:nth-child(2):hover{
 }
 .footer ul li {
     margin: 0 15px;
+    background-color: #366bdf;
 }
 .footer ul li a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s ease;
+    background-color: #366bdf;
 }
 .footer ul li a:hover {
     color: black;
-}
-.footer .copyright {
-    font-size: 20px;
-    color: black;
+    background-color: #366bdf;
 }
 
+.footer-new{
+    background-color: #366bdf;
+}
 
 .skills-section {
     padding: 50px;
     text-align: center;
+    
 }
 
 
