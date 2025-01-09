@@ -349,7 +349,7 @@ button:nth-child(2):hover{
 }
 .grid h4{
     display: flex;
-    gap: 1rem;
+    gap: 7px;
     align-items: center;
 }
 
@@ -677,6 +677,6 @@ button:nth-child(2):hover{
  
  
  }
-
-
-  
+.Size{
+    padding-top: 5px;
+}
