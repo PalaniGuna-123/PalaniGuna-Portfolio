@@ -11,12 +11,12 @@
     display: flex;
 }
 
-.navlist{
+/* .navlist{
     display: flex;
     gap: 3.5rem;
     height: 10vh;
     background-color: #262525;
-    width: 98vw;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -27,13 +27,59 @@
 .navlist li{
     list-style: none;
 }
+
 .navlist li a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #fff;
     position: relative;
-     
+    right: 30px;
+    text-align: end;
+} */
+
+.navlist {
+    display: flex;
+    gap: 3rem;
+    height: 10vh;
+    background-color: #262525;
+    width: 100%;
+    justify-content:space-between; /* Align items to the left */
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    padding: 0 2rem; /* Add padding for spacing */
+}
+
+.vision {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 3rem;
+    /* margin-right: 1rem; Push navigation links to the right */
+}
+
+.vision span {
+    color: #4ba3f1; /* Blue color for "VISION" */
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
 }
 
 .left-container, .right-container{
@@ -46,7 +92,6 @@
 .vision{
     color: #fff;
     font-size: 2rem;
-    margin-right: 40rem;
 }
 .vision span{
     color:#5DB9EE;
@@ -62,7 +107,7 @@
     width: 30%;
 }
 .icons{
-    margin-top: 3rem;
+    margin-top: -2rem;
 }
 .icons a{
     display: flex;
@@ -85,10 +130,7 @@
     color: #262525;
     box-shadow: 0 0 20px #5DB9EE;
 }
-.content{
-    margin-left: 7rem;
 
-}
 .content .intro{
     font-size: 2.5rem;
     color: #fff;
@@ -114,7 +156,9 @@
 
 }
 .content{
-    scale: 1.2;
+    scale: 1;
+    margin-left: 4rem;
+
 }
 .button-container button{
     border: .1rem solid #5DB9EE ;
