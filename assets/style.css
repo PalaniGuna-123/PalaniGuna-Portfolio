@@ -329,7 +329,7 @@ button:nth-child(2):hover{
 
 .grid{
     position: relative;
-    top: 130px;
+    top: 120px;
     color: #fff;
     display: flex !important;
     flex-wrap: wrap;
