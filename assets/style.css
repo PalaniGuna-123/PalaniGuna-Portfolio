@@ -318,6 +318,9 @@ button:nth-child(2):hover{
     background:#262525;
     width: 100%;
     padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .le-container .Skills{
@@ -535,7 +538,6 @@ button:nth-child(2):hover{
     font-size: 50px;
     color: rgb(182, 156, 9);
 }
-
 
 /* FOOTER STYLES */
 .footer {
